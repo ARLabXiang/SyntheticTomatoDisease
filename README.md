@@ -2,7 +2,7 @@
 
 This dataset is part of the paper submitted to <a conference\>. The paper is avaliable at <arxiv link\>.
 
-The dataset is licensed under a CC-BY-NC-SA-4.0. It is intended for non-generative AI research and non-commercial use. For commercial use, please refer to the Unreal Engine 5.4 EULA.
+The dataset is licensed under a CC-BY-NC-4.0. It is intended for non-generative AI research and non-commercial use. For commercial use, please refer to the Unreal Engine 5.4 EULA.
 
 We public the compressed version of the dataset with 16-bit depth and 95\% quality RGB on [HuggingFace (160GB)](https://huggingface.co/datasets/XingjianLi/tomatotest).
 
