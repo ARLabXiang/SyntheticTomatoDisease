@@ -1,6 +1,6 @@
 # TomatoCastle Dataset
 
-*The paper is being revised with an improved synthetic dataset for generalization in tomato leaf disease and fruit detection*
+*The paper is being revised with an improved synthetic dataset for generalization in tomato leaf disease and fruit detection. We plan to add the trained weights and second dataset afterwards.*
 
 The paper is avaliable at <arxiv link\>.
 
