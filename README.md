@@ -1,10 +1,16 @@
-# TomatoCastle Dataset
+# Synthetic Tomato Disease Datasets
 
 *The paper is being revised with an improved synthetic dataset for generalization in tomato leaf disease and fruit detection. We plan to add the trained weights and second dataset afterwards.*
 
 The paper is avaliable at <arxiv link\>.
 
-The dataset is licensed under a CC-BY-NC-4.0. It is intended for non-generative AI research and non-commercial use due to assets used in simulation.
+The datasets are licensed under a CC-BY-NC-4.0. It is intended for non-generative AI research and non-commercial use due to assets used in simulation.
+
+## TomatoGeneral
+
+**Coming Soon**
+
+## TomatoCastle
 
 We public the compressed version of the dataset with 16-bit depth and 95\% quality RGB on [HuggingFace (160GB)](https://huggingface.co/datasets/XingjianLi/tomatotest). *Note: 23 pairs were corrupted during data collection or preprocessing, see `corrupted_h5.txt`*
 
