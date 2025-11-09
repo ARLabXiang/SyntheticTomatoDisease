@@ -3,7 +3,7 @@ title: "Synthetic Tomato Dataset"
 ---
 ## Abstract
 <div style="overflow:auto; margin:1em 0;">
-<img src="/assets/figs/visuals_gimp.png" 
+<img src="./assets/figs/visuals_gimp.png" 
        alt="My Figure Description" 
        style="float: right; width: 40%; margin-left: 20px; margin-bottom: 10px; border-radius: 20px;">
 
