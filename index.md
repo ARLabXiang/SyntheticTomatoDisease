@@ -39,11 +39,33 @@ world data, improving tomato disease detection by 2.54 IoU
 </div>
 
 ## Simulator
+**Overview.** The simulator is built upon Unreal Engine 5 with ROSIntegration for synthetic image generation. The simulation environment consist of an outdoor tomato field and three robot models (Husky, Benchbot, and Spider). The tomato field can be augmented with real-world leaf disease textures with parameterized height distribution, disease types, and quantity of diseases. 
 
+The most recent version of the simulator for Windows 11 is available at the top of the page.
+<div style="overflow:auto; margin:1em 0;">
 
+<img src="./assets/figs/simflowchart-1.jpg" 
+       alt="My Figure Description" 
+       style="float: right; width: 100%; margin-left: 20px; margin-bottom: 10px; border-radius: 20px;">
+
+</div>
+
+**Environment Parameters.** 
+
+**Field Parameters.** 
+
+**Robot/Camera Parameters.** 
 
 ## Datasets
 
+**Tomato General**
 
+**Tomato Castle**
 
 ## Applications
+
+**Public Datasets**
+
+**Sim2Real**
+
+**Stereo Matching**
