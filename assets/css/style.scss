@@ -50,7 +50,7 @@
   color: $header-heading-color;
   text-align: center;
   background-color: transparent;
-  background-image: url("/assets/figs/webpage/dimheader.jpg");
+  background-image: url("{{ '/assets/figs/webpage/dimheader.jpg' | relative_url }}");
   background-size: cover;       // or "contain", depending on what you want
   background-position: center;  // center the image
   
