@@ -36,7 +36,7 @@ world data, improving tomato disease detection by 2.54 IoU
 
 </div>
 
-## Brief Background. 
+## Brief Background
 Plant diseases cause significant global yield losses,
  estimated at around 20% for many crops. Early detection and
  continuous monitoring are critical for implementing timely crop
@@ -57,21 +57,31 @@ Plant diseases cause significant global yield losses,
 The most recent version of the simulator for Windows 11 is available at the top of the page. The following information follows the most recent simulator version, but the dataset may not include some of these options.
 <div style="overflow:auto; margin:1em 0;">
 
-<img src="./assets/figs/simflowchart-1.jpg" 
-       alt="My Figure Description" 
-       style="float: right; width: 100%; margin-left: 20px; margin-bottom: 10px; border-radius: 20px;">
+<img src="./assets/figs/webpage/simwindow.jpg"
+     alt="My Figure Description"
+     style="display: block; margin: 0 auto; width: 70%; border-radius: 20px;">
+
 
 </div>
 
-**Environment Parameters.** Aside from the obvioud robot and tomato fields, the environment also includes the time-of-day and cloud systems.
+**Environment Parameters.** Aside from the obvious robot and tomato fields, the environment also includes the time-of-day and cloud systems. [**Details Page →**](./pages/Simulator/EnvParam.html).
+<div style="overflow:auto; margin:1em 0;">
+<img src="./assets/figs/webpage/envparam.jpg"
+     alt="My Figure Description"
+     style="display: block; margin: 0 auto; width: 70%; border-radius: 20px;">
+</div>
 
-**Field Parameters.** The field follows the row-crop configuration, with adjustable field size and plant gaps in the GUI.
-
-**Robot/Camera Parameters.** 
+**Field Parameters.** The field contains the bulk of the configuration options for variations. In general it follows the row-crop configuration with adjustable field size and plant gaps in the GUI. Additionally, many disease spread options are also exposed in the GUI. [**Details Page →**](./pages/Simulator/FieldParam.html).
+<div style="overflow:auto; margin:1em 0;">
+<img src="./assets/figs/webpage/fieldconfig.jpg"
+     alt="My Figure Description"
+     style="display: block; margin: 0 auto; width: 70%; border-radius: 20px;">
+</div>
+**Robot/Camera Parameters.** The most recent simulator have three robot versions, BenchBot, HuskyBot, and SpiderBot. The GUI exposes camera options such as the camera type, resolution, and capture rates. It also exposes the planar position of the robots in the field. The robots are controlled by position, as we do not intend to use the UE5 environment for physics simulations. [**Details Page →**](./pages/Simulator/RobotParam.html).
 
 ## Datasets
 
-**TomatoGeneral.** TomatoGeneral is the larger and more varied dataset generated compared to TomatoCastle. The majority of the images have randomized perspectives and uses natural lighting with exposure changes, which are common features across real-world tomato datasets such as LaboroTomato, LeafAndTomato, and TomatOD. In the paper we used this dataset to benchmark out-of-distribution semantic segmentation on the aforementioned datasets and compare to the ACOD-12K dataset. 
+**TomatoGeneral.** TomatoGeneral is the larger and more varied dataset generated compared to TomatoCastle. The majority of the images have randomized perspectives and uses natural lighting with exposure changes, which are common features across real-world tomato datasets such as LaboroTomato, LeafAndTomato, and TomatOD. [**Details Page →**](./pages/Dataset/TG.html).
 <div style="display: flex; flex-wrap: nowrap; align-items: stretch; gap: 20px; width: 100%;">
 
   <!-- LEFT = 70% -->
@@ -94,7 +104,7 @@ The most recent version of the simulator for Windows 11 is available at the top 
 
 
 
-**TomatoCastle** TomatoCastle is a more targeted dataset for field robot application, where stereo was also included for stereo matching model training.
+**TomatoCastle** TomatoCastle is a more targeted dataset for field robot application, where stereo was also included for stereo matching model training. [**Details Page →**](./pages/Dataset/TC.html).
   <div style="flex: 0 0 400px; width: 100%; max-width: 400px; ">
     <img-comparison-slider style="width: 100%;">
       <img slot="first" src="./assets/figs/webpage/rgb_68.png"
@@ -109,8 +119,8 @@ The most recent version of the simulator for Windows 11 is available at the top 
 
 ## Applications
 
-**Public Datasets**
+**Public Datasets** In this work we used TomatoGeneral to benchmark out-of-distribution semantic segmentation on the public datasets and compare to the ACOD-12K dataset. [**Details Page →**](./pages/Applications/PublicDataset.html).
 
-**Sim2Real**
+**Sim2Real** We also experiment the unsupervised domain adaptation methods on unlabeledd field images using TomatoCastle. [**Details Page →**](./pages/Applications/UDA.html)
 
-**Stereo Matching**
+**Stereo Matching** PhenoStereo is a stereo camera designed for field imaging with low exposure time to reduce motion blur during movement. The camera module is equpped with multiple high intensity strobe lights to capture bright images with the low exposure options, it also helps with consistent image quality across different time-of-day. Although this type of imaging is not commonly found in stereo datasets, here we examine the performance of pretrained stereo model on other datasets to the synthetic dataset from TomatoCastle. [**Details Page →**](./pages/Applications/Stereo.html)
