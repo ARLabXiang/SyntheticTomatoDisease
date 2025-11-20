@@ -105,8 +105,10 @@ The most recent version of the simulator for Windows 11 is available at the top 
 
 
 **TomatoCastle** TomatoCastle is a more targeted dataset for field robot application, where stereo was also included for stereo matching model training. [**Details Page →**](./pages/Dataset/TC.html).
-  <div style="flex: 0 0 400px; width: 100%; max-width: 400px; ">
-    <img-comparison-slider style="width: 100%;">
+  </div>
+<div style="display: flex; flex-wrap: nowrap; align-items: stretch; gap: 20px; width: 100%;">
+  <div style="flex: 0 0 50%;">
+    <img-comparison-slider style="width: 100%; height: 100%;">
       <img slot="first" src="./assets/figs/webpage/rgb_68.png"
            alt="My Figure Description"
            style="border-radius: 20px;" />
@@ -116,11 +118,40 @@ The most recent version of the simulator for Windows 11 is available at the top 
     </img-comparison-slider>
   </div>
 
-
+  <!-- RIGHT = 30% -->
+  <div style="flex: 0 0 50%;">
+    <img-comparison-slider style="width: 100%; height: 100%;">
+      <img slot="first" src="./assets/figs/webpage/rgb_10.png"
+           alt="My Figure Description"
+           style="border-radius: 20px;" />
+      <img slot="second" src="./assets/figs/webpage/mapped_semantic_10.png"
+           alt="My Figure Description"
+           style="border-radius: 20px;" />
+    </img-comparison-slider>
+  </div>
+</div>
 ## Applications
 
 **Public Datasets** In this work we used TomatoGeneral to benchmark out-of-distribution semantic segmentation on the public datasets and compare to the ACOD-12K dataset. [**Details Page →**](./pages/Applications/PublicDataset.html).
+<div style="overflow:auto; margin:1em 0;">
+<img src="./assets/figs/webpage/realworld.jpg"
+     alt="My Figure Description"
+     style="display: block; margin: 0 auto; width: 70%; border-radius: 20px;">
+</div>
 
 **Sim2Real** We also experiment the unsupervised domain adaptation methods on unlabeledd field images using TomatoCastle. [**Details Page →**](./pages/Applications/UDA.html)
+<div style="overflow:auto; margin:1em 0;">
+<img src="./assets/figs/webpage/additional_tomatocastle.png"
+     alt="My Figure Description"
+     style="display: block; margin: 0 auto; width: 70%; border-radius: 20px;">
+</div>
 
 **Stereo Matching** PhenoStereo is a stereo camera designed for field imaging with low exposure time to reduce motion blur during movement. The camera module is equpped with multiple high intensity strobe lights to capture bright images with the low exposure options, it also helps with consistent image quality across different time-of-day. Although this type of imaging is not commonly found in stereo datasets, here we examine the performance of pretrained stereo model on other datasets to the synthetic dataset from TomatoCastle. [**Details Page →**](./pages/Applications/Stereo.html)
+<div style="overflow:auto; margin:1em 0;">
+<img src="./assets/figs/webpage/stereo_whole.jpg"
+     alt="My Figure Description"
+     style="display: block; margin: 0 auto; width: 80%; border-radius: 20px;">
+<img src="./assets/figs/webpage/stereo_label.jpg"
+     alt="My Figure Description"
+     style="display: block; margin: 0 auto; width: 80%; border-radius: 20px;">
+</div>
