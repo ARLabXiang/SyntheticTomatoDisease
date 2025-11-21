@@ -78,10 +78,15 @@ The most recent version of the simulator for Windows 11 is available at the top 
      style="display: block; margin: 0 auto; width: 70%; border-radius: 20px;">
 </div>
 **Robot/Camera Parameters.** The most recent simulator have three robot versions, BenchBot, HuskyBot, and SpiderBot. The GUI exposes camera options such as the camera type, resolution, and capture rates. It also exposes the planar position of the robots in the field. The robots are controlled by position, as we do not intend to use the UE5 environment for physics simulations. [**Details Page →**](./pages/Simulator/RobotParam.html).
-
+<div style="overflow:auto; margin:1em 0;">
+<img src="./assets/figs/webpage/robotoverview.png"
+     alt="My Figure Description"
+     style="display: block; margin: 0 auto; width: 70%; border-radius: 20px;">
+</div>
 ## Datasets
 
 **TomatoGeneral.** TomatoGeneral is the larger and more varied dataset generated compared to TomatoCastle. The majority of the images have randomized perspectives and uses natural lighting with exposure changes, which are common features across real-world tomato datasets such as LaboroTomato, LeafAndTomato, and TomatOD. [**Details Page →**](./pages/Dataset/TG.html).
+
 <div style="display: flex; flex-wrap: nowrap; align-items: stretch; gap: 20px; width: 100%;">
 
   <!-- LEFT = 70% -->
@@ -101,11 +106,14 @@ The most recent version of the simulator for Windows 11 is available at the top 
   </div>
 
 </div>
-
+<div style="text-align: right">
+  <em>Slider for comparison.</em>
+</div>
 
 
 **TomatoCastle** TomatoCastle is a more targeted dataset for field robot application, where stereo was also included for stereo matching model training. [**Details Page →**](./pages/Dataset/TC.html).
-  </div>
+
+
 <div style="display: flex; flex-wrap: nowrap; align-items: stretch; gap: 20px; width: 100%;">
   <div style="flex: 0 0 50%;">
     <img-comparison-slider style="width: 100%; height: 100%;">
@@ -129,6 +137,9 @@ The most recent version of the simulator for Windows 11 is available at the top 
            style="border-radius: 20px;" />
     </img-comparison-slider>
   </div>
+</div>
+<div style="text-align: right">
+  <em>Slider for comparison.</em>
 </div>
 ## Applications
 
