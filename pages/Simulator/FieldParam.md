@@ -6,12 +6,14 @@ description: Details of the adjustable field parameters
 ## [Back to Main](../../index.html)
 <hr>
 ## GUI Options (Field)
-<div style="overflow:auto; margin:1em 0;">
-<img src="../../assets/figs/webpage/Simulator/fieldparamgui.png"
-     alt="My Figure Description"
-     style="display: block; width: 50%; border-radius: 10px;">
-</div>
 
+<div style="display: flex; gap: 1em; align-items: center; margin: 1em 0;">
+  <img src="../../assets/figs/webpage/Simulator/fieldparamgui.png"
+       alt="My Figure Description"
+       style="width: 50%; border-radius: 10px;">
+
+  <iframe style="width: 50%; aspect-ratio: 16/9;" src="https://www.youtube.com/embed/uzh7iAPh0Ls" title="field param vid" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 **GroundCover - Dropdown** Replaces what is under the tomatoes, currently four options: Pot, Plastic, Dirt, and Nothing.
 
 **Filter Percent - [0-1]** Probability of each plant in the field to be empty (not spawned).

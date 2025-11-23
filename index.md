@@ -166,3 +166,8 @@ The most recent version of the simulator for Windows 11 is available at the top 
      alt="My Figure Description"
      style="display: block; margin: 0 auto; width: 80%; border-radius: 20px;">
 </div>
+
+## Acknowledgements
+This work is supported by the Engineering for Precision Water and Crop Management, project award no. 2024-67021-42788, from the U.S. Department of Agriculture’s National Institute of Food and Agriculture. Any opinions, findings, conclusions, or recommendations expressed in this publication are those of the author(s) and should not be construed to represent any official USDA or U.S. Government determination or policy. 
+
+We would also like to thank the Precision Sustainable Agriculture Lab at North Carolina State University for providing the BenchBot CAD model for use in our simulation, available at [https://github.com/precision-sustainable-ag/BenchBot-v3](https://github.com/precision-sustainable-ag/BenchBot-v3).
