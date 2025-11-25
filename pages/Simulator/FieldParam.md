@@ -44,3 +44,13 @@ description: Details of the adjustable field parameters
 **PVD Prep - Dropdown** Originally for the preprocessing method for the disease textures (to appear more natural to the plant model). It also provides PlantSeg as a disease texture source, in our experiments it did not perform as well as the PlantVillage ones.
 
 ## ROS Options
+
+**DiseaseFilter:\<disease_ids\>** See Disease name in GUI, the disease_ids are 0-10, only applies to PlantVillage sourced textures.
+
+**SplitHeightLeaf:\<height_1,leaf_1,height_2,leaf_2,...\>** See Split Heights and Split Leaf in GUI.
+
+**LeafPreprocess:\<heights\>** See PVD Prep in GUI.
+
+**PercentHealthy:\<percent\>** Probability that the plant will be healthy.
+
+**PCGSeedIncr:\<increments\>** Increment the random seed by `increment` and refresh the scene, add this at the end to apply previous options.
